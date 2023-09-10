@@ -1,0 +1,9 @@
+.custom-bg{
+    background-image: url(../../../public/slider.jpg);
+    top:0%;
+    background-size: cover;
+    /* display: block; */
+    min-height: 90vh;
+    position: relative;
+    
+}
