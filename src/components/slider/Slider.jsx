@@ -10,7 +10,7 @@ const Slider = () => {
                 </p>
                 <p>We’ve gathered the best practices to become your reliable IT <br />outsourcing partner. Startups, Microsoft partners, and companies <br /> from the government programs from all over the world trust us to <br /> develop their products.</p>
                 </div>
-                <button className='bg-[#3FBFEB] px-6 py-3 mt-10 text-white font-bold rounded-full'>Calculate Project Cost </button>
+                <button className='bg-[#3FBFEB] px-24 py-4 mt-10 text-white font-bold text-xl rounded-full'>Calculate Project Cost </button>
             </div>
         </div>
     );

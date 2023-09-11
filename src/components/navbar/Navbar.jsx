@@ -6,7 +6,7 @@ const Navbar = () => {
   
     return (
         <div className='custom-bg'>
-          <div className="navbar  fixed sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 " >
+          <div className="navbar  sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 " >
         <div className=" navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

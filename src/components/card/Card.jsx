@@ -1,6 +1,9 @@
 import Image from 'next/image';
 import React from 'react'
 import service1 from "../../../public/service-1.png"
+import service2 from "../../../public/service-2.png"
+import service3 from "../../../public/service-3.png"
+import service4 from "../../../public/service-4.png"
 
 const Card = () => {
     return (
@@ -22,7 +25,7 @@ const Card = () => {
     </div>
     <div className="card w-96 bg-base-100 shadow-xl">
         <figure className=" flex justify-start pt-10">
-            <Image src={service1}></Image>
+            <Image src={service2}></Image>
         </figure>
         <div className="card-body items-start text-left">
             <h2 className="card-title text-left text-[#3FBFEB]">From Start $335</h2>
@@ -33,7 +36,7 @@ const Card = () => {
     </div>
     <div className="card w-96 bg-base-100 shadow-xl">
         <figure className=" flex justify-start pt-10">
-            <Image src={service1}></Image>
+            <Image src={service3}></Image>
         </figure>
         <div className="card-body items-start text-left">
             <h2 className="card-title text-left text-[#3FBFEB]">From Start $335</h2>
@@ -44,7 +47,7 @@ const Card = () => {
     </div>
     <div className="card w-96 bg-base-100 shadow-xl">
         <figure className=" flex justify-start pt-10">
-            <Image src={service1}></Image>
+            <Image src={service4}></Image>
         </figure>
         <div className="card-body items-start text-left">
             <h2 className="card-title text-left text-[#3FBFEB]">From Start $335</h2>
