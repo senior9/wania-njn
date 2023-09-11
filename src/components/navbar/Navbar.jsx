@@ -6,7 +6,7 @@ const Navbar = () => {
   
     return (
         <div className='custom-bg'>
-          <div className="navbar  sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 border-b border-gray-200" >
+          <div className="navbar  fixed sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 " >
         <div className=" navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@ const Navbar = () => {
           <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
         </div>
         <div className="navbar-end lg:flex hidden">
-        <ul className="menu menu-horizontal  lg:ga)p-5 px-4 font-semibold">
+        <ul className="menu menu-horizontal  px-4 font-bold">
             <li><a className=''>Home</a></li>
             <li><a>Service</a></li>
             <li><a>Product</a></li>

@@ -2,32 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-.container {
+.navbar-start {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .slider{
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .card{
+    width: 100%;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+.service{
+  margin-left: 60px;
+  margin-right: 60px;
 }
-@media (min-width: 640px) {
-    .container {
-        max-width: 640px;
-    }
-}
-@media (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
-}
-@media (min-width: 1024px) {
-    .container {
-        max-width: 1024px;
-    }
-}
-@media (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
-}
-.mx-auto{
-    margin-left: auto;
-    margin-right: auto;
-}
+  
+  
